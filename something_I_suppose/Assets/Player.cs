@@ -13,12 +13,12 @@ public class NewBehaviourScript : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            transform.position += Vector3.forward * 0.25f;
+            transform.position += Vector3.forward * 0.125f;
         }
 
         if (Input.GetKey(KeyCode.S))
         {
-            transform.position += Vector3.back * 0.25f;
+            transform.position += Vector3.back * 0.125f;
         }
 
         if (Input.GetKey(KeyCode.A))
